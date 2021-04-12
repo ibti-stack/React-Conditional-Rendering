@@ -3,7 +3,7 @@ import React from "react";
 function Form(props) {
   return (
     <form className="form">
-    {props.isRegistered ? <h1>Already have an Account?</h1> : <h1>Please SignUp yourself first</h1>}
+    {props.isRegistered ? <h1>Already have an Account on our portal?</h1> : <h1>Please SignUp yourself first</h1>}
     <br></br>
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
